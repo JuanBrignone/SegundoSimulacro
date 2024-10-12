@@ -1,0 +1,22 @@
+.sport-detail-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.go-back {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #007BFF; /* Color azul para el botón */
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 18px;
+    margin: 5px 0;
+}

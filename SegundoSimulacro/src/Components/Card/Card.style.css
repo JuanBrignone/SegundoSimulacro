@@ -1,0 +1,56 @@
+/* Estilos generales de la tarjeta */
+.card {
+    background-color: #f9f9f9; /* Fondo claro */
+    border: 1px solid #ccc; /* Borde sutil */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    padding: 20px; /* Espacio interno */
+    margin: 20px; /* Espacio entre cartas */
+    text-align: center; /* Centrar texto */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Eleva ligeramente la carta al pasar el ratón */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Incrementa la sombra */
+}
+
+/* Título de la tarjeta */
+.title {
+    font-size: 1.5rem; /* Tamaño del texto */
+    color: #333; /* Color oscuro para el título */
+    margin-bottom: 15px; /* Espacio debajo del título */
+}
+
+/* Botones dentro de la tarjeta */
+button {
+    background-color: #007bff; /* Azul para el botón por defecto */
+    border: none; /* Sin borde */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espacio interno del botón */
+    font-size: 1rem; /* Tamaño del texto del botón */
+    border-radius: 4px; /* Bordes suaves */
+    margin: 5px; /* Espacio entre los botones */
+    cursor: pointer; /* Mano cuando pasa el ratón */
+    transition: background-color 0.3s ease; /* Transición suave en el color */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color azul más oscuro al pasar el ratón */
+}
+
+.details {
+    background-color: #28a745; /* Verde para el botón de detalles */
+}
+
+.details:hover {
+    background-color: #218838; /* Verde más oscuro al pasar el ratón */
+}
+
+.delete {
+    background-color: #dc3545; /* Rojo para el botón de eliminar */
+}
+
+.delete:hover {
+    background-color: #c82333; /* Rojo más oscuro al pasar el ratón */
+}
